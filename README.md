@@ -1,1 +1,1 @@
-# auth_app
+# firebase-auth-app
