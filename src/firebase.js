@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB0eSdlYQ-iWXfVRe3yKWhGcNhY8HQEgPU",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "brainy-authapp.firebaseapp.com",
   projectId: "brainy-authapp",
   storageBucket: "brainy-authapp.firebasestorage.app",
